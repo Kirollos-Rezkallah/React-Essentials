@@ -135,6 +135,7 @@ main h2 {
 }
 
 #tab-content {
+  white-space: normal;
   padding: 1rem;
   border-radius: 6px;
   background-color: #2f1d43;
@@ -147,4 +148,10 @@ main h2 {
 
 #tab-content code {
   font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  #tab-content code {
+    white-space: normal;
+  }
 }
