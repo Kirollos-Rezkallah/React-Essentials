@@ -154,4 +154,8 @@ main h2 {
   #tab-content code {
     white-space: normal;
   }
+
+  #examples h2 {
+    text-align: center;
+  }
 }
